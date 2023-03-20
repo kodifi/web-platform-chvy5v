@@ -1,0 +1,29 @@
+.product_card {
+  width: 250px;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid #e1e1e1;
+  margin: 30px;
+}
+
+.product_card img {
+  height: 150px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.product_card .position_content {
+  padding: 15px;
+}
+
+.product_card .position_content .title {
+  color: var(--primary-color);
+}
+
+.product_card .position_content .description {
+}
+
+.product_card .position_content .team {
+}

@@ -1,0 +1,36 @@
+/* base style */
+@import url('./feel.css');
+@import url('./fonts.css');
+@import url('./root.css');
+@import url('./utilities.css');
+
+/* component style */
+@import url('./components/product_card.css');
+
+/* page style */
+@import url('./pages/index.css');
+@import url('./pages/about.css');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+p,
+label,
+a {
+  font-family: var(--body-font-family);
+}
